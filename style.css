@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: white;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vh;
+  border: 2vh solid grey;
+}
+
+.gridi {
+  display: flex;
+  flex: 1;
+  max-width: 100vh;
+}
+
+.gridj {
+  height: 1vh;
+  width: 1vh;
+}
